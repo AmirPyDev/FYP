@@ -4,6 +4,7 @@ from django.contrib import admin
 
 from .models import *
 
-admin.site.register(customer)
-admin.site.register(products)
-admin.site.register(order)
+admin.site.register(Customer)
+admin.site.register(Products)
+admin.site.register(Tag)
+admin.site.register(Order)
